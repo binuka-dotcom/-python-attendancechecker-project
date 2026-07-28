@@ -9,6 +9,7 @@ Original file is located at
 
 student_name = input("Enter Student Name: ")
 student_id =  input("Enter Student ID: ")
+student_course = input("Enter Course: ")
 total_classes = int(input("Enter Total Classes Held: "))
 classes_attended = int(input("Enter Classes Attended: "))
 
@@ -22,6 +23,7 @@ else:
     attendance_percentage = (classes_attended / total_classes) * 100
 
     print("\nStudent Name:", student_name)
+    print("Student Course:", student_course)
     print("Total Classes:", total_classes)
     print("Classes Attended:", classes_attended)
 
